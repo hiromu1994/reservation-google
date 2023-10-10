@@ -15,7 +15,7 @@ function onFormSubmit(e) {
   var participants = responses[5].getResponse();
   var email = responses[6].getResponse();
   
-  // メール送信に関するコードスニペット
+  // メール送信に関するスニペット
   var emailItemsInfo =
   "名前: " + name + "\n" +
   "予約日: " + desiredDateStr + "\n" +
